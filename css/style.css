@@ -1,3 +1,58 @@
 .btn-right-icon {
     width: 20px;
 }
+
+
+.fa-regular {
+
+    background-color: rgb(211, 211, 252);
+    color: rgb(111, 111, 242);
+
+    border-radius: 23px;
+}
+
+.plan-btn {
+    background-color: #fff0fa;
+    border: none;
+    color: #3F87F5;
+    padding: 10px 5px;
+    margin: 0 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    font-weight: 700;
+
+}
+
+
+
+.hot-offer {
+    display: none;
+
+
+}
+
+.package-card:hover .hot-offer {
+
+    display: block;
+    background-color: rgb(251, 122, 122);
+    width: 50px;
+    position: absolute;
+    top: -19px;
+    left: 189px;
+    border-radius: 10px;
+}
+
+.package-card {
+    transition: background-color 1s, transform 1s, color 1s, box-shadow 1s;
+
+
+}
+
+
+
+.package-card:hover {
+    transform: translate(0px, -50px);
+    background-color: #3F87F5;
+    color: white;
+    box-shadow: 0px 0px 24px #9bc6f0;
+}
