@@ -56,3 +56,29 @@
     color: white;
     box-shadow: 0px 0px 24px #9bc6f0;
 }
+
+/* happy clients  */
+.banker-img {
+    margin: -44px;
+}
+
+/* .get-app-part p {
+    margin-bottom: 20px;
+} */
+.get-app-part p {
+    margin-bottom: -20px;
+}
+
+.get-app-part img {
+    width: 100px;
+}
+
+.app-store-img {
+    margin-bottom: -25px;
+}
+
+
+
+.moment-images:hover {
+    transform: scale(2.5);
+}
