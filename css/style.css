@@ -77,8 +77,10 @@
     margin-bottom: -25px;
 }
 
+.moment-images img {
+    transition: transform 6s ease-in-out;
+}
 
-
-.moment-images:hover {
-    transform: scale(2.5);
+.moment-images:hover img {
+    transform: scale(2.4) rotate(45deg);
 }
